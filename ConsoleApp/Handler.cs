@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp
+﻿namespace ConsoleApp
 {
     public class Handler
     {
         public string Handle()
         {
-            return "Hello Peggy!";
+            return "Hello Peggy! How are you?";
         }
     }
 }
