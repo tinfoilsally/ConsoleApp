@@ -1,11 +1,11 @@
-﻿namespace ConsoleApp
+﻿using System;
+
+namespace ConsoleApp;
+
+internal class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main()
-        {
-            var handler = new Handler();
-            handler.Handle();
-        }
+        Console.WriteLine("Hello World!");
     }
 }
